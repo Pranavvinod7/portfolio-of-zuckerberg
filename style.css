@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color: rgb(104, 71, 5);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav ul li{
+    display: flex;
+   
+}
+nav ul li a{
+    display: flex;
+   justify-content: space-evenly;
+   margin: 40px;
+   color: rgb(241, 230, 238);
+   text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 14, 14);
+}
+#heading{align-items: center;
+    color: rgb(248, 248, 245);
+    margin-right: 400px;
+    margin-top: 20px;
+
+}
+span{
+    color: rgb(134, 231, 49);
+}
+.main{color: rgb(247, 240, 242);
+    border: 2px solid rgba(10, 186, 225, 0.496);
+    padding: 90px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: -1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    box-shadow: 4px 4px rgba(42, 42, 1, 0.584);  
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+#home::before{
+    content: '';
+    position: absolute;
+    background-image: url('https://wallpapercave.com/wp/wp2126146.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+
+.main:hover{
+    color: rgb(139, 9, 9);
+}
+
+.img{
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+}
+
+#abt{
+    color: darkgoldenrod;
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    margin-top: 15px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#abt:hover{
+    color: rgb(232, 240, 240);
+}
+
+.img p{
+    color: aliceblue;
+    color: rgb(247, 240, 242);
+    border: 2px solid rgba(10, 186, 225, 0.496);
+    padding: 40px;
+    left: 50px;
+    margin-left: 50px;
+}
+
+.pro img{
+    background-color: rgb(13, 13, 13);
+}
+ 
+.pro p{
+    color: aliceblue;
+}
+.pro{display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+p{
+    color: aliceblue;
+}
+
+#wp{
+    color: rgb(7, 222, 25);
+}
+#in{
+    color: rgb(172, 31, 125);
+    margin-bottom: 50px;
+}
+#fc{
+    color: rgb(31, 50, 172);
+    margin-bottom: 5px;
+}
+
+#mg{
+    color: rgb(65, 146, 129);
+}
+.row{ width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box{
+    width: 300px;
+    height: 600px;
+    border: 2px ridge rgb(85, 121, 183);
+    border-radius: 10px ;
+    margin: 20px;
+    margin-left: 30px;
+    background: linear-gradient(to top,brown 50%,white 50% );
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box:hover{ background-position: left bottom;
+    border: none;
+    box-shadow: 3px 3px 3px 5px  brown;
+}
+
+.box img{
+    width:100%
+}
+.box h3{
+    margin: 10px;
+    color: blueviolet;
+}
+
+.box p{
+    margin: 10px;
+    text-align: justify;
+}
+
+#op{
+    color: aliceblue;
+}
+.input{
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 0;
+    color: azure;
+}
+
+form{width: 400px;
+    margin-left: 500px;
+    margin-right: 100px;
+}
+#contact{
+    background-color: rgb(11, 11, 11);
+}
